@@ -1,0 +1,79 @@
+.header__button {
+    margin-right: 10%;
+    margin-top: 35px;
+    box-sizing: content-box;
+}
+
+.register__button {
+    padding: 3px 20px;
+    margin-right: auto;
+    border: solid 1px #D9C6B5;
+    appearance: none;
+    color: #D9C6B5;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #F1ECE7;
+    height: 100vh;
+}
+
+.main__title h2 {
+    padding: 50px 0 40px;
+    text-align: center;
+    color: #8B7969;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 50px 100px;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #C5B9B0;
+}
+
+.form__group {
+    width: 100%;
+    color: #8B7969;
+    box-sizing: border-box;
+}
+
+.form__group-title {
+    margin-bottom: 10px;
+}
+
+.form__label {
+    font-size: 20px;
+}
+
+.form__group-content {
+    margin-bottom: 40px;
+}
+
+.form__input input {
+    width: 100%;
+    height: 40px;
+    background-color: #efefef;
+    border: none;
+    color: #8B7969;
+}
+
+.form__error {
+    color: red;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
