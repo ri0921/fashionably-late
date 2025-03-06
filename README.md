@@ -3,14 +3,8 @@
 ## 環境構築
 
 ### Dockerビルド
-1. git clone git@github.com:coachtech-material/laravel-docker-template.git
-2. mv laravel-docker-template fashionably-late
-3. git remote set -url origin git@github.com:ri0921/fashionably-late.git
-4. git add .
-5. git commit -m "リモートリポジトリの変更"
-6. git push origin main
-7. docker-compose.ymlのversion属性の記述を削除し、mysql:にplatform: linux/amd64の記述を追加
-8. docker-compose up -d --build
+1. git clone https://github.com/ri0921/fashionably-late
+2. docker-compose up -d --build
 
 ### Laravel環境構築
 1. docker-compose exec php bash
@@ -21,6 +15,7 @@
 6. php artisan migrate
 7. composer require laravel-lang/lang:~7.0 --dev
 8. php artisan db:seed
+9. php artisan key:generate
 
 
 ## 使用技術
